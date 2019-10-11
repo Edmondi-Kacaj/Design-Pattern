@@ -1,4 +1,4 @@
-package CreationalPattern.AbstractFactoryDesignPattern.Master;
+package CreationalPattern.AbstractFactoryDesignPattern.Visa;
 
 import CreationalPattern.AbstractFactoryDesignPattern.CreditCard;
 
@@ -8,11 +8,11 @@ import CreationalPattern.AbstractFactoryDesignPattern.CreditCard;
  * @YEAR 2019
  * @Project Name DesignPattern
  */
-public class MasterClassicCard extends CreditCard {
+public class VisaClassicCard extends CreditCard {
 
-    public MasterClassicCard() {
-        setCardNumber(123456);
-        setCardHolderFullName("John Johny");
-        setCreditCardLimit(1000);
+    public VisaClassicCard() {
+        setCardNumber(789456);
+        setCardHolderFullName("Johny MC");
+        setCreditCardLimit(2000);
     }
 }

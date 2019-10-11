@@ -6,8 +6,16 @@ package CreationalPattern.AbstractFactoryDesignPattern;
  * @YEAR 2019
  * @Project Name DesignPattern
  */
-public enum CardType {
-    CLASSIC,
-    GOLD,
-    PLATINUM
+public enum CreditCardModel {
+    VISA("VISA"),
+    MASTER("MASTER");
+
+    private String value;
+    CreditCardModel(String id) {
+        this.value=id;
+    }
+
+    public String getValue(){
+        return value;
+    }
 }

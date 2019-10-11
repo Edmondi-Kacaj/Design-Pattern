@@ -7,4 +7,7 @@ package CreationalPattern.AbstractFactoryDesignPattern;
  * @Project Name DesignPattern
  */
 public enum CardType {
+    CLASSIC,
+    GOLD,
+    PLATINUM
 }
