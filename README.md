@@ -5,7 +5,9 @@ Design patterns are solutions to general problems that software developers faced
 These solutions were obtained by trial and error by numerous software developers over quite a substantial period of time.
 
 Java Design Patterns
-Exist 3 kategory:
+\
+\
+WE have  3 kategory:
 
 \
 \
