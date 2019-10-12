@@ -11,7 +11,7 @@ import structuralpattern.adapterdesignpattern.dog.IDog;
  * @Project Name DesignPattern
  * <p>
  * Adapter Pattern is a Structural Design Pattern, and used when we have
- * 2 interface unrelated, to work together
+ * 2 interface unrelated, to work together , and the class which join those object is called Adpater
  * Adapter convert (adapt ) one interface  in one interface  excepted by Client
  * so we convert IBird into IDog
  */
