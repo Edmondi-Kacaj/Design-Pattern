@@ -11,8 +11,7 @@ public class RedColor implements CarColor {
     public RedColor() {
     }
 
-    @Override
-    public String setColor() {
+    @Override public String setColor() {
         return " Red Color";
     }
 }

@@ -7,13 +7,11 @@ package structuralpattern.adapterdesignpattern.dog;
  * @Project Name DesignPattern
  */
 public class Dog implements IDog {
-    @Override
-    public void walk() {
+    @Override public void walk() {
         System.out.println(" Dogs run  ");
     }
 
-    @Override
-    public void barks() {
+    @Override public void barks() {
         System.out.println(" Dogs barks ");
     }
 }

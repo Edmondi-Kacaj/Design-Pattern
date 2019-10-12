@@ -8,5 +8,6 @@ package structuralpattern.adapterdesignpattern.birds;
  */
 public interface IBird {
     void fly();
+
     void chirps();
 }

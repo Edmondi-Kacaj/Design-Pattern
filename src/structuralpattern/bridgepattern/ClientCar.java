@@ -12,17 +12,20 @@ import structuralpattern.bridgepattern.cartype.ModelCar;
  * @date 10/12/2019
  * @YEAR 2019
  * @Project Name DesignPattern
+ * <p>
+ * bridge design pattern is used to decouple the interfaces
+ * from implementation and hiding the implementation details from the client programs
  */
 public class ClientCar {
 
     public static void main(String[] args) {
 
         // create color for our car
-        CarColor benzColor=new RedColor();
-        CarColor audiColor=new BlackColor();
+        CarColor benzColor = new RedColor();
+        CarColor audiColor = new BlackColor();
 
         // Let's get benz
-        ModelCar benz=new Benz(benzColor,"Diesel");
+        ModelCar benz = new Benz(benzColor, "Diesel");
         System.out.println("-------- BENZ ---------------");
         benz.printCar();
         System.out.println("------------------------------");
@@ -33,7 +36,7 @@ public class ClientCar {
 
 
         // Let's get audi
-        ModelCar audi=new Audi(audiColor,"Diesel");
+        ModelCar audi = new Audi(audiColor, "Diesel");
         System.out.println("-------- AUDI ---------------");
         audi.printCar();
         System.out.println("------------------------------");

@@ -1,7 +1,5 @@
 package CreationalPattern.AbstractFactoryDesignPattern;
 
-import java.util.Objects;
-
 /**
  * @author Edmond Kacaj
  * @date 10/12/2019
@@ -11,12 +9,14 @@ import java.util.Objects;
 public class CreditCardMainClass {
 
     public static void main(String[] args) {
-        CreditCard getMasterGold=CreditCardFactory.getCreditCardModel(CreditCardModel.MASTER).getCreditCard(CardType.GOLD);
+        CreditCard getMasterGold = CreditCardFactory.getCreditCardModel(CreditCardModel.MASTER)
+            .getCreditCard(CardType.GOLD);
         System.out.println("---- Master Gold ---------");
         System.out.println(getMasterGold);
         System.out.println("--------------------------");
 
-        CreditCard getVisaPlatinum=CreditCardFactory.getCreditCardModel(CreditCardModel.VISA).getCreditCard(CardType.PLATINUM);
+        CreditCard getVisaPlatinum = CreditCardFactory.getCreditCardModel(CreditCardModel.VISA)
+            .getCreditCard(CardType.PLATINUM);
         System.out.println("---- Visa platinum ---------");
         System.out.println(getVisaPlatinum);
         System.out.println("--------------------------");

@@ -5,7 +5,7 @@ package CreationalPattern.AbstractFactoryDesignPattern;
  * @date 10/12/2019
  * @YEAR 2019
  * @Project Name DesignPattern
- *
+ * <p>
  * Create the card with information
  * i add only 2 properties but can be more
  */
@@ -39,8 +39,7 @@ public abstract class CreditCard {
         this.creditCardLimit = creditCardLimit;
     }
 
-    @Override
-    public String toString() {
+    @Override public String toString() {
         return "CreditCard{" + "cardNumber=" + cardNumber + ", cardHolderFullName='"
             + cardHolderFullName + '\'' + ", creditCardLimit=" + creditCardLimit + '}';
     }

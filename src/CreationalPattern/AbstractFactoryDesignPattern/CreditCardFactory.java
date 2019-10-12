@@ -11,10 +11,10 @@ import CreationalPattern.AbstractFactoryDesignPattern.Visa.VisaCreditCardFactory
  */
 public abstract class CreditCardFactory {
 
-    public static CreditCardFactory getCreditCardModel(CreditCardModel creditcardModel){
-        if (creditcardModel.getValue().equals("MASTER")){
+    public static CreditCardFactory getCreditCardModel(CreditCardModel creditcardModel) {
+        if (creditcardModel.getValue().equals("MASTER")) {
             return new MasterCreditCardFactory();
-        }else {
+        } else {
             return new VisaCreditCardFactory();
         }
     }

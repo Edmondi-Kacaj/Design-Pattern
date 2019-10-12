@@ -8,5 +8,6 @@ package structuralpattern.adapterdesignpattern.dog;
  */
 public interface IDog {
     void walk();
+
     void barks();
 }

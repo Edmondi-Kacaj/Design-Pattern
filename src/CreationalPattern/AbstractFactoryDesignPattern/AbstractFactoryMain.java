@@ -5,24 +5,23 @@ package CreationalPattern.AbstractFactoryDesignPattern;
  * @date 10/11/2019
  * @YEAR 2019
  * @Project Name DesignPattern
- *
+ * <p>
  * AbstractCreditCardfactory
- *
+ * <p>
  * Credit Card
- *
+ * <p>
  * CardType
  * MasterCard
- *  MasterCard Classic
- *  MasterCard Gold
- *  MasterCard Platinum
- *
+ * MasterCard Classic
+ * MasterCard Gold
+ * MasterCard Platinum
+ * <p>
  * VisaCard
- *  Visa Classic
- *  Visa Gold
- *  Visa Platinum
- *
- *  Main
- *
+ * Visa Classic
+ * Visa Gold
+ * Visa Platinum
+ * <p>
+ * Main
  */
 public class AbstractFactoryMain {
 }

@@ -12,13 +12,16 @@ import CreationalPattern.AbstractFactoryDesignPattern.CreditCardFactory;
  */
 public class MasterCreditCardFactory extends CreditCardFactory {
 
-    @Override
-    public CreditCard getCreditCard(CardType cardType) {
-        switch (cardType){
-            case CLASSIC:return new MasterClassicCard();
-            case GOLD: return new MasterGoldCard();
-            case PLATINUM:return new MasterPlatinumCard();
-            default:throw  new IllegalArgumentException("We support only Classic , Gold and Platinum ");
+    @Override public CreditCard getCreditCard(CardType cardType) {
+        switch (cardType) {
+            case CLASSIC:
+                return new MasterClassicCard();
+            case GOLD:
+                return new MasterGoldCard();
+            case PLATINUM:
+                return new MasterPlatinumCard();
+            default:
+                throw new IllegalArgumentException("We support only Classic , Gold and Platinum ");
         }
     }
 }

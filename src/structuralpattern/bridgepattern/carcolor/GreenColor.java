@@ -11,8 +11,7 @@ public class GreenColor implements CarColor {
     public GreenColor() {
     }
 
-    @Override
-    public String setColor() {
+    @Override public String setColor() {
         return " Green Color";
     }
 }

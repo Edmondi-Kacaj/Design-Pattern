@@ -8,18 +8,20 @@ import structuralpattern.bridgepattern.carcolor.CarColor;
  * @YEAR 2019
  * @Project Name DesignPattern
  */
-public class Benz extends ModelCar{
+public class Benz extends ModelCar {
 
-    protected String carModel=" BENZ ";
-    protected String price="50 000 $";
-    public Benz(CarColor carColor,String engine) {
+    protected String carModel = " BENZ ";
+    protected String price = "50 000 $";
+
+    public Benz(CarColor carColor, String engine) {
         super(carColor);
-        this.carEngine=engine;
+        this.carEngine = engine;
     }
 
-    @Override
-    public void printCar() {
+    @Override public void printCar() {
         // some logic
-        System.out.println(this.carModel +" {"+" Color="+this.carColor.setColor()+" || car-engine= "+this.carEngine+" || car-price= "+this.price+" }");
+        System.out.println(
+            this.carModel + " {" + " Color=" + this.carColor.setColor() + " || car-engine= "
+                + this.carEngine + " || car-price= " + this.price + " }");
     }
 }

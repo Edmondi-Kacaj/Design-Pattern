@@ -32,13 +32,11 @@ public class Employee implements Cloneable {
         this.employees.add(employee);
     }
 
-    @Override
-    public String toString() {
+    @Override public String toString() {
         return "Employee{" + "employees=" + employees + '}';
     }
 
-    @Override
-    protected Employee clone() {
+    @Override protected Employee clone() {
         List<String> tempEmployes = new ArrayList<>();
         this.employees.forEach(employee -> tempEmployes.add(employee));
         return new Employee(tempEmployes);

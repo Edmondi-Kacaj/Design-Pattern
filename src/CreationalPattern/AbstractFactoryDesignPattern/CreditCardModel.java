@@ -7,15 +7,15 @@ package CreationalPattern.AbstractFactoryDesignPattern;
  * @Project Name DesignPattern
  */
 public enum CreditCardModel {
-    VISA("VISA"),
-    MASTER("MASTER");
+    VISA("VISA"), MASTER("MASTER");
 
     private String value;
+
     CreditCardModel(String id) {
-        this.value=id;
+        this.value = id;
     }
 
-    public String getValue(){
+    public String getValue() {
         return value;
     }
 }
