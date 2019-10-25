@@ -9,9 +9,20 @@ and how to provide lose coupling and flexibility to extend easily.
      and whether the request is required to be sent to the next object in the chain or not.
 
 2) Command Pattern
+
       It is a behavioral design pattern that lets you turn a request into stand-alone object,
       which can be used to parametrize objects with different requests,
       queue or log requests, and support un-doable operations.
+
+
+3) Iterator Pattern
+
+     Iterator pattern is very commonly used design pattern in Java and .Net programming environment.
+     This pattern is used to get a way to access the elements of a collection object in sequential manner
+     without any need to know its underlying representation.
+     Iterator Pattern we have a lot of examples like List,Array,Map etc
+
+
 
 
 
