@@ -22,6 +22,19 @@ and how to provide lose coupling and flexibility to extend easily.
      without any need to know its underlying representation.
      Iterator Pattern we have a lot of examples like List,Array,Map etc
 
+4) Mediator Pattern
+
+     Let's think we have some  object or class and we want those object must have connection between each other.
+     so we have n object and the number possible connection will be n(n-1)/2
+     so we have 4 object and the possible connection is 4(4-1)/2=6
+     so we need to create 6 connection for 4 object. Imagine how hard is to maintenance those connection
+     and if we need to change one object we need to make possible also to fix (change in other classes)
+     to make more easy and independent each object, we use Mediator Pattern.
+
+     The mediator design pattern is used to provide a centralized communication medium
+     between different objects in a system.
+     Mediator pattern focuses on to provide a mediator between objects for communication
+     and help in implementing lose-coupling between objects.
 
 
 
