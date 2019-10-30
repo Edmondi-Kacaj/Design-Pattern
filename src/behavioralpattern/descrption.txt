@@ -36,6 +36,20 @@ and how to provide lose coupling and flexibility to extend easily.
      Mediator pattern focuses on to provide a mediator between objects for communication
      and help in implementing lose-coupling between objects.
 
+5) Memento Design Pattern
+
+      Memento (mean  reminder )  is a  behavioral design pattern , Memento is used to keep the state of a class
+      and  to restore this object to a previous state.
+      As your application is progressing,
+      you may want to save checkpoints in your application and restore back to those checkpoints later.
+
+      Example we are working in NotePad and we want to back use CTRL+Z  to back in previous state.
+
+      Memento has 3 part
+      originator : ==>  the object for which the state is to be saved. It creates the memento and uses it in future to undo.
+      memento : ==>  the object that is going to maintain the state of originator. Its just a POJO.
+      caretaker : ==>  the object that keeps track of multiple memento. Like maintaining savepoint.
+
 
 
 
