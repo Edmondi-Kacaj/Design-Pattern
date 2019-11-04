@@ -16,16 +16,18 @@ public class UserFollowing implements Follower {
     private String lastName;
     private String feed;
 
-    public UserFollowing(String name, String lastName) {
+    public UserFollowing(String name, String lastName,String feed) {
         super();
         this.follows = new ArrayList<>();
         this.name = name;
         this.lastName = lastName;
+        this.feed=feed;
     }
 
 
 
-    @Override public void followMe(Follow follow) {
+    @Override
+    public void followMe(Follow follow) {
         this.follows.add(follow);
     }
 

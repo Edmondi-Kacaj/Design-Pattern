@@ -21,17 +21,14 @@ public class ClientMainClass {
         Follow arjan = new PersonFollow("Arjan Kacaj");
         Follow jenny = new PersonFollow("Jenny Jenny");
 
-        UserFollowing vipCelentano = new UserFollowing("Adriano ", "Celentano");
+        Follower vipCelentano = new UserFollowing("Adriano ", "Celentano"," Today i have a new concert in Milano");
 
         // edmond,Arjan and Jeny follow Adriano Celentano
         vipCelentano.followMe(edmond);
         vipCelentano.followMe(arjan);
         vipCelentano.followMe(jenny);
 
-        // adriano add new feed
-        vipCelentano.setFeed(" Today i have a new concert in Milano");
-
-        vipCelentano.notifyMe();
+      vipCelentano.notifyMe();
 
         // let's say edmond unfollow adriano
         vipCelentano.unFollow(edmond);
