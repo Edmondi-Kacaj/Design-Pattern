@@ -71,6 +71,12 @@ and how to provide lose coupling and flexibility to extend easily.
      State pattern is used to provide a systematic and lose-coupled way to achieve this through Context and State implementations.
 
 
+8) Strategy Design Pattern
 
+    Strategy Pattern is to define a family of algorithms, encapsulate each algorithm,
+    and make them interchangeable.
+    The Strategy Pattern lets the algorithm vary independently from clients that use it. In addition the pattern,
+    defines a group of classes that represent a set of possible behaviors. These behaviors can then be used in an application to change its functionality.
+    The figure below illustrates the Strategy pattern.
 
 
