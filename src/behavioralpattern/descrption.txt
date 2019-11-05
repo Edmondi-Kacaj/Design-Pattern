@@ -80,3 +80,9 @@ and how to provide lose coupling and flexibility to extend easily.
     The figure below illustrates the Strategy pattern.
 
 
+9) Template method pattern
+
+    Template method design pattern is to define an algorithm as skeleton of operations and
+    leave the details to be implemented by the child classes.
+    The overall structure and sequence of the algorithm is preserved by the parent class.
+    Template method use abstract class to declare the skeleton and after it leaves the child classes to implement the logic
